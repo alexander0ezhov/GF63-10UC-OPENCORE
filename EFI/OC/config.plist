@@ -263,8 +263,8 @@
             <dict>
                 <key>PciRoot(0x0)/Pci(0x1D,0x4)/Pci(0x0,0x0)</key>
                 <dict>
-                    <key>built-in</key>
-                    <data>AQ==</data>
+                    <key>layout-id</key>
+                    <integer>29</integer>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
@@ -379,7 +379,7 @@
                     <key>Comment</key>
                     <string>V1.1.0</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/NVMeFix</string>
                     <key>MaxKernel</key>
@@ -1313,7 +1313,7 @@
                     <key>Comment</key>
                     <string>BootKicker.efi</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1335,7 +1335,7 @@
                     <key>Comment</key>
                     <string>ChipTune.efi</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1379,7 +1379,7 @@
                     <key>Comment</key>
                     <string>GopStop.efi</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1401,7 +1401,7 @@
                     <key>Comment</key>
                     <string>KeyTester.efi</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1423,7 +1423,7 @@
                     <key>Comment</key>
                     <string>MmapDump.efi</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1511,7 +1511,7 @@
                     <key>Comment</key>
                     <string>RtcRw.efi</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1533,7 +1533,7 @@
                     <key>Comment</key>
                     <string>VerifyMsrE2.efi</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
@@ -1570,7 +1570,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>alctsel=1 alcdelay=2500 alcid=3 igfxonln=1 -igfxblr -wegnoegpu alctcsel=1</string>
+                    <string>alctcsel=1 alcdelay=2500 alcid=29 igfxonln=1 -igfxblr -wegnoegpu</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
